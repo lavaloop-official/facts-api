@@ -1,1 +1,15 @@
 */target/*
+/db-data/base/
+/db-data/global/
+/db-data/pg_logical/
+/db-data/pg_multixact/
+/db-data/pg_stat/
+/db-data/pg_subtrans/
+/db-data/pg_wal/
+/db-data/pg_xact/
+/db-data/pg_hba.conf
+/db-data/pg_ident.conf
+/db-data/PG_VERSION
+/db-data/postgresql.auto.conf
+/db-data/postgresql.conf
+/db-data/postmaster.opts
