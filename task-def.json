@@ -1,0 +1,36 @@
+{
+  "containerDefinitions": [
+    {
+      "name": "facts-api",
+      "image": "facts-api",
+      "cpu": 0,
+      "portMappings": [
+        {
+          "name": "facts-api-81-tcp",
+          "containerPort": 81,
+          "hostPort": 81,
+          "protocol": "tcp",
+          "appProtocol": "http"
+        }
+      ],
+      "essential": true,
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/cat-fact-api-definition",
+          "awslogs-create-group": "true",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      }
+    }
+  ],
+  "executionRoleArn": "arn:aws:iam::379870995635:role/ecsTaskExecutionRole",
+  "family": "facts-api-definition",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": [
+    "FARGATE"
+  ],
+  "cpu": "1024",
+  "memory": "2048"
+}
