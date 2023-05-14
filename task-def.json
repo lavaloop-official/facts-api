@@ -17,7 +17,7 @@
       "logConfiguration": {
         "logDriver": "awslogs",
         "options": {
-          "awslogs-group": "/ecs/cat-fact-api-definition",
+          "awslogs-group": "/ecs/fact-api-definition",
           "awslogs-create-group": "true",
           "awslogs-region": "us-east-1",
           "awslogs-stream-prefix": "ecs"

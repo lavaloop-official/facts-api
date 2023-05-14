@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d1408ff-4334-4b52-9454-4bcba98d2807" name="Changes" comment="" />
+    <list default="true" id="5d1408ff-4334-4b52-9454-4bcba98d2807" name="Changes" comment="added .idea" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +84,7 @@
       <workItem from="1684071573128" duration="2085000" />
       <workItem from="1684073711904" duration="781000" />
       <workItem from="1684074510871" duration="1628000" />
-      <workItem from="1684076254373" duration="323000" />
+      <workItem from="1684076254373" duration="640000" />
     </task>
     <task id="LOCAL-00001" summary="Added git ignore">
       <created>1684076311256</created>
@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684076549711</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added .idea">
+      <created>1684076659564</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684076659564</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +153,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added git ignore" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="added .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="added .idea" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/random_facts_api$Application.ic" NAME="Application Coverage Results" MODIFIED="1684076580563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.lavaloop.*</FILTER>
+    </SUITE>
   </component>
 </project>
